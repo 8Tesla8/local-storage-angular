@@ -9,8 +9,7 @@ export class EditComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   public get editName(){
     return localStorage.getItem('name');

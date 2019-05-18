@@ -9,7 +9,7 @@ export class ShowComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {  }
+  ngOnInit() { }
 
   public get showName(){
     return localStorage.getItem('name');
